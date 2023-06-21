@@ -3,30 +3,30 @@
 #include <stdio.h>
 
 /**
-* main - Entry Point
-*
+* main - Print if number is positive, zero or negetie
 * Return: Always 0 (Success)
+*
 */
 
 int main(void)
 {
 
-int  n;
+int n;
 
-srand(time(0))
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n == 0)
+if (n > 0)
 {
-	printf(%d is zero\n", n);
+printf("%d is positive\n", n);
 }
-else if (n > 0)
+else if (n == 0)
 {
-	printf("%d is positive\n", n);
+printf("%d is zero\n", n);
 }
 else if (n < 0)
 {
-	printf("%d is negetive\n", n);
+printf("%d is negetive\n", n);
 }
 return (0);
 
