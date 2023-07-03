@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-char *s0 = "Bob Dylan";
-char *s1 = "Rorbert Allen";
+	char *s0 = "Bob Dylan";
+	char *s1 = "Rorbert Allen";
 
 printf("%s, %s\n", s0, s1);
 set_string(&s1, s0);
