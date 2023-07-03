@@ -4,9 +4,9 @@
  * set_string - Entry point
  * @s: input
  * @to: input
- * Return: Always 0 (success)
+ * Return: Always 0.
  */
-int set_string(char **s, char *to)
+void set_string(char **s, char *to)
 {
 	*s = to;
 }
